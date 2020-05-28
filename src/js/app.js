@@ -1,9 +1,9 @@
-import Character from './characters/character';
+import Team from './characters/team';
 
-const test = new Character();
-const newCharacter = { username: 'Сашка' };
+const test = new Team();
+const newTeam = { username: 'Сашка' };
 
-test.add(newCharacter);
+test.add(newTeam);
 
 test.add(44);
 test.addAll(1, 2, 3, 4, 1);

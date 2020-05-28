@@ -1,4 +1,4 @@
-class Character {
+class Team {
   constructor() {
     this.members = new Set();
   }
@@ -23,4 +23,4 @@ class Character {
   }
 }
 
-export default Character;
+export default Team;
